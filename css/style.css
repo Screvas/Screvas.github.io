@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'BreakingBadFont';
+    src: url('../fonts/Breaking\ Bad.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --fuente-titulo: 'BreakingBadFont';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Esta es la pag index. */
+.index-bg {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: var(--fuente-titulo);
+    color: white;
+    font-size: 14px;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+}
+
+.border-poster img {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+}
+
+/*Aqui empieza el formulario  */
+.forms-bg {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: var(Helvetica);
+    color: white;
+    font-size: 14px;
+}
+
+.formulario {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: left;
+    font-family: Helvetica;
+    font-size: 12px;
+}
+
+.formulario .button {
+    text-align: center;
+}
+
+
+/* Aqui empieza la tabla. */
+.table-bg {
+    background-color:#0c3e11 ;
+    text-align: center;
+    font: 'Helvetica';
+    font-size: 14px;
+}
+
+table {
+    margin: 20px 0;
+    background-color: #2b2c24;
+    /* align-content: center; */
+    margin: 1rem auto;
+    border-spacing: 7px;
+    border: 5px solid #2b2c24;
+}
+td {
+    width: 75px;
+    height: 75px;
+}
+
+.fbig {
+    font-size: 30px;
+    font-weight: 900;
+    margin: 2%;
+}
+
+.fsmall {
+    font-size: 10px;
+    margin: 5%;
+}
+
+
+.color1 {
+    background-color: #b5dc1c;
+}
+
+.color2 {
+    background-color: #ac8dcf;
+}
+
+.color3 {
+    background-color: #f2f8cd;
+}
+
+.color4 {
+    background-color: #8aa416;
+}
+
+.color5 {
+    background-color: #637026;
+}
+
+.color6 {
+    background-color: #c5e249;
+}
+
+.color7 {
+    background-color: #bcc3a1;
+}
+
+.color8 {
+    background-color: #818d4d;
+}
+
+.color9 {
+    background-color: #d7e97c;
+}
+
+.t2-color {
+    background-color: #c5c724;
+}

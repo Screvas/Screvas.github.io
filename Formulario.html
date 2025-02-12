@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breaking Bad – Que comience el juego!</title>
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Actividad_2/css/style.css">
+</head>
+
+<body class="forms-bg">
+    <h1>Breaking Bad – Que comience el juego!</h1>
+
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" name="BreakingForms" method="post">
+        <div class="formulario">
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <br>Nombre: (*) <input type="text" name="nombre" size="30" maxlength="30" required>
+                <br>
+                <br>Apellidos: (*) <input type="text" name="apellidos" size="30" maxlength="30" required>
+                <br>
+                <br>DNI: <input type="text" name="dni" size="12" maxlength="12">
+                <br>
+                <br>Correo electrónico: (*) <input type="email" name="email" size="30" maxlength="30" required>
+                <br>
+                <br>Fecha de Nacimiento: <input type="date" name="" id="">
+                <br>
+
+                <br>
+                <fieldset>
+                    <legend>Seleccione su genero</legend>
+                    <input type="radio" name="Gender" value="Masculino">Hombre
+                    <br>
+                    <br><input type="radio" name="Gender" value="Femenino">Mujer
+                    <br>
+                    <br><input type="radio" name="Gender" value="Otro">Otro <input type="text" maxlength="14" size="10">
+                    <br>
+                </fieldset>
+
+                <br>
+                <fieldset>
+                    <legend>Dirección Postal</legend>
+                    <br>Calle: <input type="address" name="direccion" size="16" maxlength="16">
+                    <br>
+                    <br>Numero: <input type="text" name="direccion" size="5" maxlength="5">
+                    <br>
+                    <br>Piso: <input type="text" name="direccion" size="10" maxlength="10">
+                    <br>
+                    <br>Codigo Postal: <input type="text" name="direccion" size="6" maxlength="6">
+                    <br>
+                    <br>Ciudad: <input type="text" name="direccion" size="16" maxlength="16">
+
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Elige una opcion de Personaje</legend>
+                    <select name="personajes">
+                        <option value="0"></option>
+                        <option value="1">Jessie Pinkman</option>
+                        <option value="2">Walter White</option>
+                        <option value="3">Saul Goodman</option>
+                        <option value="4">Gustavo Fring</option>
+                        <option value="5">Pollos Hermanos</option>
+                        <option value="6">Otros personajes</option>
+                    </select>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Comentarios</legend>
+                    <textarea name="comentarios" id="" cols="55" rows="10" placeholder="Inserte aqui sus comentarios"></textarea>
+                </fieldset>
+                <div class="button">
+                    <br>
+                    <input type="file" name="adjunto" accept=".pdf,.doc,.docx" multiple>
+                    <br>
+                    <br><input type="reset" value="Borrar">
+                    <input type="submit" value="Enviar">
+                </div>
+            </fieldset>
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
